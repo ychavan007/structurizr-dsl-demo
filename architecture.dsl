@@ -7,7 +7,7 @@
 workspace "Big Bank plc 5557" "This is an example workspace to illustrate the key features of Structurizr, via the DSL, based around a fictional online banking system." {
 
     model {
-        customer = person "Personal Banking Customer123" "A customer of the bank, with personal bank accounts." "Customer"
+        customer = person "Personal Banking Customer" "A customer of the bank, with personal bank accounts." "Customer"
 
         enterprise "Big Bank plc" {
             supportStaff = person "Customer Service Staff" "Customer service staff within the bank." "Bank Staff"
