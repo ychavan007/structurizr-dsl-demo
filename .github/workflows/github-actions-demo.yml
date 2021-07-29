@@ -1,9 +1,6 @@
-name: commit
-on:
-  push:
-    branches:
-      - master
 
+name: GitHub Actions Demo
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,3 +25,4 @@ jobs:
           dockerfile: Dockerfile
           username: ${{ env.DOCKER_USERNAME }}
           password: ${{ env.DOCKER_PASSWORD }}
+
