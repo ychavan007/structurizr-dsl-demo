@@ -1,5 +1,6 @@
-
- push:
+name: commit
+on:
+  push:
     branches:
       - master
 
