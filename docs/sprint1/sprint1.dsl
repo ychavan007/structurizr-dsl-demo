@@ -1,6 +1,6 @@
 workspace {
   model {
-    user = person "User" "A user"
+    user = person "User" "A User"
 
     search = softwareSystem "Product Search" "Search capabilities offered over GraphQL" "Existing System"
 
