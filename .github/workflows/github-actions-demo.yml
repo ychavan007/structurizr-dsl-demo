@@ -6,7 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: extenda/structurizr-to-png@latest
-        with:
-          working-directory: docs
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      -  uses: gilbertotcc/structurizr-action@v1
+         with:
+           args: 'export -workspace ./ -format json'
+          
+         
