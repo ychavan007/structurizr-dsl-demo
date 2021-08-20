@@ -7,7 +7,12 @@ jobs:
       - uses: actions/checkout@v2
 
       -  uses:  aidmax/structurizr-cli-action@v0.2.0
+         id: test
          with:
-           args: 'export -workspace workspace.dsl -format websequencediagrams'
+          id: 68881 # The workspace ID (required)
+          key: 83853f08-5e40-4422-bf21-68433b67c5e0 # The workspace API key (required)
+          secret: d453efeb-4b8d-437f-82e0-390da0e65a6f # The workspace API secret (required)
+          workspace: architecture.dsl # The path to the workspace JSON file/DSL file(s) (required)
+        
           
          
