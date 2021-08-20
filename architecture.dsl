@@ -208,7 +208,7 @@ workspace "NOV Connect" "NOV Connect solution" {
     views {
 
         //overall diagram
-        systemLandscape "WellDataSystem" "This is the overview of WellData" {
+        systemLandscape "WellDataSystem" "This is the overview of WellData_" {
             include *
             autoLayout
         }
