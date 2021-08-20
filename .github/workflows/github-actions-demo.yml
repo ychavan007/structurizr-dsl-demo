@@ -6,8 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      -  uses: gilbertotcc/structurizr-action@v1
+      -  uses:  aidmax/structurizr-cli-action@v0.2.0
          with:
-           args: 'export -workspace architecture.dsl -format json -output ./.github/workflows/'
+           args: 'export -workspace workspace.dsl -format websequencediagrams'
           
          
