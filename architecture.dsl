@@ -1,7 +1,7 @@
 workspace {
 
     model {
-        a = softwareSystem "A"
+        a = softwareSystem "AA"
         b = softwareSystem "B"
 
         a -> b "Sends data to"
