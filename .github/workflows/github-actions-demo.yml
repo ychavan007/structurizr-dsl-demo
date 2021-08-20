@@ -10,3 +10,7 @@ jobs:
         with:
           working-directory: docs
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - uses: gilbertotcc/structurizr-action@v1
+        with:
+           args: 'export -workspace ./ -format json'
