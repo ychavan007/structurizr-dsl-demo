@@ -208,13 +208,13 @@ workspace "NOV Connect" "NOV Connect solution" {
     views {
 
         //overall diagram
-        systemLandscape "WellDataSystem" "WellData Overview" {
+        systemLandscape "WellDataSystem" "This is the overview of WellData" {
             include *
             autoLayout
         }
 
         //rigsense diagrams
-        systemContext rigSenseSystem "RigSenseContext" "Test 1" {
+        systemContext rigSenseSystem "RigSenseContext" "Test 1000" {
             include *
             autoLayout
         }
