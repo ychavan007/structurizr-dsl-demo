@@ -214,7 +214,7 @@ workspace "NOV Connect" "NOV Connect solution" {
         }
 
         //rigsense diagrams
-        systemContext rigSenseSystem "RigSenseContext" "Test 1000" {
+        systemContext rigSenseSystem "RigSenseContext" "Test 1" {
             include *
             autoLayout
         }
