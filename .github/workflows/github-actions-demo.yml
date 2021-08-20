@@ -8,6 +8,6 @@ jobs:
 
       -  uses: gilbertotcc/structurizr-action@v1
          with:
-           args: '--workspace architecture.dsl --format json --output ./'
+           args: 'export --workspace architecture.dsl --format json --output ./'
           
          
