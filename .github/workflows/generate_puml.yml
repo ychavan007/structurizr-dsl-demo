@@ -1,1 +1,17 @@
+  
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  structurizr:
+    runs-on: ubuntu-latest
+     inputs:
+  args:
+    description: 'Arguments for Structurizr CLI'
+    required: true
+    default: ''
 
+runs:
+  using: 'docker'
+  image: 'docker://gilbertotcc/structurizr:v1.9.0'
+  args:
+    - ${{ inputs.args }}
