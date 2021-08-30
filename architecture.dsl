@@ -1,7 +1,7 @@
 workspace {
 
     model {
-        user = person "User"
+        user = person "User XYZ"
         softwareSystem = softwareSystem "Software System" {
             webapp = container "Web Application" {
                 user -> this "Uses"
